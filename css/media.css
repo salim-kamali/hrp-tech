@@ -3,17 +3,28 @@
     /* .home_hero h1{
         font-size: 58px;
     } */
+    .service .title_sec h2{
+        font-size: 42px;
+        line-height: 56px;
+    }
     .service .ser-box h3 {
         font-size: 20px;
     }
+    .service .ser-box  {
+        height: auto;
+    }
 }
 
-/* 
+
 @media(max-width:1100px) {
-    .work .work-wrap{
-        
+    .service .ser-box  {
+        height: 310px;
     }
-} */
+    .service_hero::before{
+        width: 65px;
+        height: 75px;
+    }
+}
 
 @media(max-width:991px) {
     header .navbar-nav .nav-item{
@@ -83,6 +94,9 @@
         font-size: 48px;
         line-height: 52px;
     }
+    .service .ser-box  {
+        height: auto;
+    }
     .service .title_sec h2{
         font-size:40px;
         line-height: 50px;
@@ -142,5 +156,10 @@
     footer .menu-list{
         margin: 15px 0;
         display: none;
+    }
+    
+    .service_hero::before{
+        width: 55px;
+        height: 65px;
     }
 }

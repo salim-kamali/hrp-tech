@@ -11,8 +11,15 @@ body {
 }
 
 .cnt-lg {
-    max-width: 96%;
+    max-width: 92%;
     margin: auto;
+}
+
+@media(max-width:1440px) {
+    .cnt-lg {
+        max-width: 96%;
+        margin: auto;
+    }
 }
 
 ul {
@@ -69,6 +76,10 @@ p {
     background-color: #007F61;
 }
 
+.btn i {
+    margin-left: 6px;
+}
+
 .btn:hover {
     color: #007F61;
     background-color: transparent;
@@ -107,7 +118,8 @@ p {
     background-color: unset;
     border: 1px solid #007F61;
 }
-.btn.btn-outline:hover{
+
+.btn.btn-outline:hover {
     color: #fff;
     background-color: #007F61;
 }
@@ -119,11 +131,13 @@ p {
     background-color: unset;
     border: 1px solid #fff;
 }
-.btn.btn-outline-wht:hover{
+
+.btn.btn-outline-wht:hover {
     color: #007F61;
     border: 1px solid #fff;
     background-color: #fff;
 }
+
 /* ---------------- */
 header {
     border-bottom: 1px solid #EDEDF1;
@@ -144,7 +158,9 @@ header .navbar-nav .nav-item .nav-link {
     padding-left: 0;
     padding-right: 0;
 }
-header .navbar-nav .nav-item .nav-link:hover ,header .navbar-nav .nav-item .nav-link.active{
+
+header .navbar-nav .nav-item .nav-link:hover,
+header .navbar-nav .nav-item .nav-link.active {
     color: #007F61;
 }
 
@@ -222,7 +238,7 @@ header .btn:hover {
 
 .service .title_sec {
     text-align: center;
-    max-width: 620px;
+    max-width: 720px;
     margin: auto;
     margin-bottom: 46px;
 }
@@ -244,14 +260,20 @@ header .btn:hover {
 
 .service .ser-box {
     border-radius: 16px;
-    padding: 40px 20px;
+    padding: 40px 28px;
     background: #DEEEEB;
     margin-bottom: 20px;
     transition: 0.3s ease;
+    height: 290px;
 }
 
 .service .ser-box img {
     margin-bottom: 34px;
+    transition: 0.3s ease;
+}
+
+.service .ser-box .icn-w {
+    display: none;
 }
 
 .service .ser-box h3 {
@@ -272,6 +294,7 @@ header .btn:hover {
 
 .service .ser-box p {
     color: #231F20;
+    font-weight: 400;
 }
 
 .service .ser-box p span {
@@ -296,6 +319,14 @@ header .btn:hover {
 
 .service .ser-box:hover h3::before {
     background-color: #fff;
+}
+
+.service .ser-box:hover .icn-b {
+    display: none;
+}
+
+.service .ser-box:hover .icn-w {
+    display: block;
 }
 
 .service .more-btn {
@@ -360,6 +391,10 @@ header .btn:hover {
 
 .project .mar-top {
     margin-top: 50px;
+}
+
+.project .pro-wrap img {
+    width: 100%;
 }
 
 .project .pro-wrap .icn {
@@ -797,3 +832,46 @@ footer .copyright-text p {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+
+/* ---------- Service Page ---- */
+.service_hero {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+}
+
+.service_hero::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 124px;
+    background-image: url(../img/icons/box-icons-top.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service_hero h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 86px;
+    font-family: 'Poppins';
+}
+
+.service_hero p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.service_hero .btn {
+    margin-top: 18px;
+}
+
+/* .service_hero .btn */
