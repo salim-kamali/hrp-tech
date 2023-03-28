@@ -142,7 +142,12 @@
     .case-study .last-row {
         flex-direction: column-reverse;
     }
-
+    .case-study .case-wrap, .case-study .img{
+        margin-bottom: 40px;
+    }
+    .case-study .last-row .case-wrap{
+        margin-bottom: 40px
+    }
     .project .pro-wrap .text .desc {
         padding-right: 0px;
     }

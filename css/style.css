@@ -1232,3 +1232,9 @@ footer .copyright-text p {
     color: #061F33;
     margin-bottom: 14px;
 }
+.contact_hero form .btn{
+    width: 100%;
+}
+.contact_hero form .btn i{
+    transform: rotateZ(315deg);
+}
