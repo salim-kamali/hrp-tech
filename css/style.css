@@ -1232,9 +1232,63 @@ footer .copyright-text p {
     color: #061F33;
     margin-bottom: 14px;
 }
-.contact_hero form .btn{
+
+.contact_hero form .btn {
     width: 100%;
+    margin-top: 14px;
 }
-.contact_hero form .btn i{
+
+.contact_hero form .btn i {
     transform: rotateZ(315deg);
+}
+
+.contact_hero .flex-loc {
+    margin-top: 115px;
+    justify-content: space-between;
+}
+
+.contact_hero .loc-wrap {
+    width: 40%;
+}
+
+.contact_hero .loc-wrap h4 {
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #231F20;
+}
+
+.contact_hero .loc-wrap .btn {
+    margin-top: 20px;
+}
+
+.contact_hero .loc-wrap .btn i {
+    transform: rotateZ(315deg);
+}
+
+.contact_hero .con-detail .detail-wrap {
+    margin-bottom: 34px;
+    flex-wrap: nowrap;
+}
+
+.contact_hero .con-detail .detail-wrap .icon {
+    margin-right: 20px;
+}
+
+.contact_hero .detail-wrap p {
+    color: #061F33;
+    margin-bottom: 6px;
+}
+
+.contact_hero .con-detail .detail-wrap a {
+    color: #007F61;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.inset_logo{
+    position: relative;
+    padding: 60px 0;
 }

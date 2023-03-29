@@ -129,10 +129,12 @@
         width: 64px;
         height: 64px;
     }
-    .service_hero .img img{
+
+    .service_hero .img img {
         width: 100%;
         margin-top: 38px;
     }
+
     .case-study .img img {
         width: 100%;
     }
@@ -142,15 +144,27 @@
     .case-study .last-row {
         flex-direction: column-reverse;
     }
-    .case-study .case-wrap, .case-study .img{
+
+    .case-study .case-wrap,
+    .case-study .img {
         margin-bottom: 40px;
     }
-    .case-study .last-row .case-wrap{
+
+    .case-study .last-row .case-wrap {
         margin-bottom: 40px
     }
+
     .project .pro-wrap .text .desc {
         padding-right: 0px;
     }
+
+    .contact_hero .loc-wrap {
+        width: 50%;
+    }
+    
+.contact_hero .con-detail{
+    margin-top: 40px;
+}
 }
 
 @media(max-width:767px) {
@@ -296,5 +310,16 @@
     .let h2 {
         font-size: 38px;
         line-height: 48px;
+    }
+    .contact_hero h2{
+        font-size: 56px;
+    }
+
+    .contact_hero .flex-loc{
+        margin-top: 60px;
+    }
+    .contact_hero .loc-wrap {
+        width: 100%;
+        margin-bottom: 42px;
     }
 }
