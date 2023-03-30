@@ -1323,3 +1323,10 @@ footer .copyright-text p {
     position: relative;
     padding: 60px 0;
 }
+
+.inset_logo h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
