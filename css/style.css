@@ -1321,7 +1321,7 @@ footer .copyright-text p {
 
 .inset_logo {
     position: relative;
-    padding: 60px 0;
+    padding: 160px 0;
 }
 
 .inset_logo h2 {
@@ -1329,4 +1329,5 @@ footer .copyright-text p {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
+    margin-bottom: 40px;
 }
