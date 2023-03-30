@@ -72,6 +72,10 @@
         padding: 32px;
     }
 
+    .expertise .expert-info {
+        width: 33.33%;
+    }
+
     .work {
         padding-bottom: 80px;
     }
@@ -161,10 +165,10 @@
     .contact_hero .loc-wrap {
         width: 50%;
     }
-    
-.contact_hero .con-detail{
-    margin-top: 40px;
-}
+
+    .contact_hero .con-detail {
+        margin-top: 40px;
+    }
 }
 
 @media(max-width:767px) {
@@ -218,6 +222,13 @@
 
     .project .see-more {
         text-align: start;
+    }
+
+    .expertise{
+        padding-bottom:90px;
+    }
+    .expertise .expert-info {
+        width: 50%;
     }
 
     .work .title_sec h2 {
@@ -311,13 +322,15 @@
         font-size: 38px;
         line-height: 48px;
     }
-    .contact_hero h2{
+
+    .contact_hero h2 {
         font-size: 56px;
     }
 
-    .contact_hero .flex-loc{
+    .contact_hero .flex-loc {
         margin-top: 60px;
     }
+
     .contact_hero .loc-wrap {
         width: 100%;
         margin-bottom: 42px;

@@ -444,6 +444,37 @@ header .btn:hover {
     transform: rotateZ(315deg);
 }
 
+/* -- expertise ----  */
+.expertise {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.expertise h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #061F33;
+    margin-bottom: 64px;
+}
+
+.expertise .expert-info {
+    flex: 0 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.expertise .expert-info h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #061F33;
+    margin-top: 20px;
+}
+
+
 /* ------- work ---  */
 .work {
     position: relative;
@@ -1288,7 +1319,7 @@ footer .copyright-text p {
     line-height: 22px;
 }
 
-.inset_logo{
+.inset_logo {
     position: relative;
     padding: 60px 0;
 }
