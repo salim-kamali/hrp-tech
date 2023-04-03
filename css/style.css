@@ -535,7 +535,24 @@ header .btn:hover {
     position: relative;
     padding-top: 84px;
     padding-bottom: 115px;
-    background-color: #F6F6F6;
+    background-color: #FBF7EC;
+}
+
+.team .mar-btm {
+    margin-bottom: 58px;
+}
+
+.team h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .team h2 {
@@ -549,17 +566,23 @@ header .btn:hover {
 
 .team .team-wrap {
     position: relative;
+    margin-bottom: 40px;
+}
+
+.team .col-lg-3:nth-last-child(1) .team-wrap,
+.team .col-lg-3:nth-last-child(2) .team-wrap,
+.team .col-lg-3:nth-last-child(3) .team-wrap,
+.team .col-lg-3:nth-last-child(4) .team-wrap {
+    margin-bottom: 0;
 }
 
 .team img {
-    border-radius: 16px;
     width: 100%;
 }
 
 .team .txt {
-    position: absolute;
-    top: 0;
-    padding: 25px 20px;
+    position: relative;
+    padding-top: 22px;
 }
 
 .team .txt h3 {
@@ -1324,10 +1347,269 @@ footer .copyright-text p {
     padding: 160px 0;
 }
 
+.inset_logo h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .inset_logo h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+/* -------------  */
+.about-hero {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+
+.about-hero .title_sec {
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.about-hero .title_sec h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.about-hero .title_sec h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: #061F33;
+}
+
+.about-hero .about-wrap .img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 557px;
+    border-radius: 100px;
+}
+
+.about-hero .about-wrap .img img {
+    display: none;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.about-hero .col-lg-4:first-child .img,
+.about-hero .col-lg-4:first-child img {
+    border-radius: 100px 0px 100px 100px;
+}
+
+.about-hero .col-lg-4:last-child .img,
+.about-hero .col-lg-4:last-child img {
+    border-radius: 100px 100px 0px 100px;
+}
+
+.about-hero .text {
+    margin-top: 70px;
+}
+
+.about-hero .text p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #061F33;
+}
+
+/* ------- core-value ----  */
+.core-value {
+    color: #fff;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+}
+
+.core-value h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.core-value .title_sec p {
+    color: #fff;
+    margin-bottom: 52px;
+}
+
+.core-value h3 {
+    margin: 0;
+}
+
+.core-value h5 {
+    margin: 14px 0;
+}
+
+.core-value p {
+    color: #fff;
+}
+
+/* ----- mission ---  */
+.mission {
+    position: relative;
+    padding-top: 54px;
+    padding-bottom: 86px;
+}
+
+.mission h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 26px;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.mission h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #061F33;
+    margin-bottom: 18px;
+}
+
+.mission .mission-info {
+    margin-top: 50px;
+}
+
+.mission .mission-info .mission-box:first-child {
+    margin-bottom: 22px;
+}
+
+.mission .mission-info .mission-box {
+    position: relative;
+    padding-left: 40px;
+}
+
+.mission .mission-info .mission-box::after {
+    position: absolute;
+    content: '\f00c';
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    color: #FF855F;
+    background-color: #FBDECC;
+    font-family: 'fontawesome';
+
+}
+
+.mission .mission-info .mission-box h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.mission .img img {
+    border-radius: 100px 0 0 0;
+}
+
+/* -------- Why Choose ---  */
+.choose {
+    position: relative;
+    padding-top: 94px;
+}
+
+.choose h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 26px;
+    text-align: center;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.choose h2 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    color: #061F33;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.choose .img img {
+    width: 100%;
+}
+
+.choose .choose-info {
+    padding: 20px;
+    background: #DEEEEB;
+    border-radius: 8px;
+}
+
+.choose .choose-info {
+    margin-bottom: 35px;
+}
+
+.choose .choose-info:last-child {
+    margin-bottom: 0;
+}
+
+.choose .choose-box {
+    position: relative;
+    padding-left: 40px;
+}
+
+.choose .choose-box::after {
+    position: absolute;
+    content: '\f00c';
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    color: #fff;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    font-family: 'fontawesome';
+
+}
+
+.choose .choose-box h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.choose .choose-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #061F33;
 }
