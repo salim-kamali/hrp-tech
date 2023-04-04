@@ -1613,3 +1613,47 @@ footer .copyright-text p {
     line-height: 22px;
     color: #061F33;
 }
+
+/* -------- growth ----  */
+.growth {
+    position: relative;
+    padding: 80px 0;
+}
+
+.growth .growth-wrap {
+    background-color: #DEEEEB;
+    padding: 50px 60px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.growth .txt {
+    max-width: 70%;
+}
+
+.growth .grow-btn {
+    max-width: 30%;
+    text-align: end;
+}
+
+.growth h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.growth h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #061F33;
+}
+
+.growth p{
+    color: #061F33;
+}
