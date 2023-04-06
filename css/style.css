@@ -152,8 +152,8 @@ header .navbar-nav .nav-item {
 }
 
 header .navbar-nav .nav-item .nav-link {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 19px;
     padding-left: 0;
     padding-right: 0;
@@ -162,6 +162,7 @@ header .navbar-nav .nav-item .nav-link {
 header .navbar-nav .nav-item .nav-link:hover,
 header .navbar-nav .nav-item .nav-link.active {
     color: #007F61;
+    font-weight: 600;
 }
 
 header .navbar-nav .nav-item:first-child {
@@ -400,7 +401,7 @@ header .btn:hover {
 .project .pro-wrap .icn {
     width: 40px;
     height: 40px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
@@ -852,14 +853,15 @@ footer .menu-list ul li:last-child {
 }
 
 footer .menu-list ul li a {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 17px;
     color: #061F33;
 }
 
 footer .menu-list ul li a:hover {
     color: #007F61;
+    font-weight: 600;
 }
 
 footer .numb p {
@@ -978,6 +980,7 @@ footer .copyright-text p {
 
 .case-study .btn {
     margin-top: 32px;
+    display: none;
 }
 
 /* -------  */

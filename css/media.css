@@ -77,6 +77,15 @@
         padding-left: 0;
     }
 
+    header .navbar-toggler {
+        font-size: 22px;
+        padding: 0;
+        border: none;
+    }
+    header .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
     .home_hero h1 {
         font-size: 52px;
         line-height: 75px;
@@ -226,11 +235,11 @@
     .choose .img img {
         margin: 40px auto;
     }
-    
+
     .growth .txt {
         max-width: 100%;
     }
-    
+
     .growth .grow-btn {
         max-width: 100%;
         text-align: start;
@@ -241,6 +250,10 @@
 @media(max-width:767px) {
     .cnt-lg {
         max-width: 94%;
+    }
+
+    header nav {
+        padding: 10px !important;
     }
 
     .home_hero {
@@ -462,6 +475,7 @@
         font-size: 30px;
         line-height: 38px;
     }
+
     .growth .growth-wrap {
         padding: 50px 40px;
     }
