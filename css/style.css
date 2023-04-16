@@ -971,6 +971,9 @@ footer .copyright-text p {
     color: #061F33;
     margin-top: 16px;
 }
+.case-study p{
+    font-size: 20px;
+}
 
 .case-study .mar-top {
     font-weight: 400;
