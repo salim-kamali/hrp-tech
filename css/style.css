@@ -504,8 +504,8 @@ header .btn:hover {
 
 .work .work-wrap {
     display: flex;
-    align-items: center;
-    height: 420px;
+    align-items: flex-start;
+    height: 350px;
     border-radius: 15px;
     padding: 32px 28px;
     text-align: center;
