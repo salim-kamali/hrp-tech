@@ -58,7 +58,7 @@ a {
 
 p {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 27px;
     margin: 0;
 }
@@ -73,7 +73,6 @@ p {
     border-radius: 50px;
     color: #fff;
     transition: 0.3s ease;
-    text-transform: capitalize;
     background-color: #007F61;
 }
 
@@ -234,8 +233,8 @@ header .btn:hover {
 /* ------ Our Services ---  */
 .service {
     position: relative;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .service .title_sec {
@@ -342,115 +341,115 @@ header .btn:hover {
 /* ----- project ----  */
 .project {
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .project .row-head {
-    margin-bottom: 80px;
+    margin-bottom: 58px;
 }
 
 .project .see-more {
     text-align: right;
 }
 
-.project .see-more p {
-    position: relative;
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 150%;
-    font-family: 'Urbanist';
-    text-transform: capitalize;
+
+.project h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
 }
 
-.project .see-more a{
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    color: #007F61;
-    margin-left: 22px;
-    line-height: 40px;
-    text-align: center;
+.project h2 span {
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
-.project .see-more a::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    border: 1px solid #007F61;
+.project .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.project .mrg-btm {
-    margin-bottom: 66px;
+.project .flex .txt {
+    max-width: 80%;
 }
 
-.project img {
+.project .flex .icon {
+    max-width: 20%;
+}
+
+.project .pro-wrap {
+    margin-bottom: 76px;
+}
+
+.project .pro-wrap:last-child {
+    margin-bottom: 0;
+}
+
+.project .mar-top {
+    margin-top: 50px;
+}
+
+.project .pro-wrap img {
     width: 100%;
 }
 
-.project h2 {
-    font-weight: 600;
+.project .pro-wrap .icn {
+    width: 40px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #DEEEEB;
+    transform: rotateZ(315deg);
 }
 
-.project h3 {
-    font-size: 30px;
-    font-family: "Urbanist";
-    font-weight: 700;
-    margin-bottom: 14px;
-}
-
-.project h5 {
+.project .pro-wrap .icn i {
     color: #007F61;
-    font-size: 18px;
-    font-family: "Urbanist";
-    font-weight: 500;
-    line-height: 27px;
-    margin-bottom: 18px;
 }
 
-.project ul {
-    padding-top: 24px;
+.project .pro-wrap .text {
+    margin-top: 20px;
 }
 
-.project ul li {
-    position: relative;
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
-    padding-left: 23px;
-    line-height: 27px;
-    margin-bottom: 14px;
+.project .pro-wrap .txt h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
 }
 
-.project ul li::before {
-    position: absolute;
-    content: '';
-    top: 6px;
-    left: 0;
-    width: 14px;
-    height: 14px;
-    background-image: url(../img/icons/check-icon.svg);
+.project .pro-wrap .txt p {
+    margin-bottom: 0;
+    color: #007F61;
 }
 
-.project .project-btn {
-    margin-top: 56px;
+/* .project .pro-wrap a{} */
+.project .pro-wrap a:hover .icn {
+    background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
 }
 
-.project .project-btn i {
-    transform: rotateZ(320deg);
+.project .pro-wrap a:hover .icn i {
+    color: #fff;
+}
+
+.project .more-btn {
+    margin-top: 50px;
+}
+
+.project .more-btn i {
+    transform: rotateZ(315deg);
 }
 
 /* -- expertise ----  */
 .expertise {
     position: relative;
-    margin-top: 80px;
-    margin-bottom: 140px;
+    padding-top: 80px;
+    padding-bottom: 140px;
 }
 
 .expertise h2 {
@@ -505,8 +504,8 @@ header .btn:hover {
 
 .work .work-wrap {
     display: flex;
-    align-items: flex-start;
-    height: 350px;
+    align-items: center;
+    height: 420px;
     border-radius: 15px;
     padding: 32px 28px;
     text-align: center;
@@ -914,8 +913,8 @@ footer .copyright-text p {
 
 .service_hero h2 {
     font-weight: 600;
-    font-size: 56px;
-    line-height: 72px;
+    font-size: 64px;
+    line-height: 86px;
     font-family: 'Poppins';
 }
 
@@ -971,10 +970,6 @@ footer .copyright-text p {
     line-height: 44px;
     color: #061F33;
     margin-top: 16px;
-}
-
-.case-study p {
-    font-size: 20px;
 }
 
 .case-study .mar-top {
@@ -1144,7 +1139,7 @@ footer .copyright-text p {
 
 .project_hero p {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
     color: #5B5675;
 }
@@ -1189,15 +1184,6 @@ footer .copyright-text p {
     border: none;
     color: #fff;
     background: linear-gradient(90deg, #11698E 0.02%, #16C79A 100%);
-}
-.project-tabs .nav-tabs .nav-item{
-    padding: 0;
-}
-.project-tabs .nav-tabs .nav-item::before{
-    display: none;
-}
-.project-tabs .nav-tabs .nav-item:last-child .nav-link{
-    margin-right: 0;
 }
 
 .project .pro-wrap .text .desc {
@@ -1322,13 +1308,11 @@ footer .copyright-text p {
     /* width: 40%; */
     margin-bottom: 30px;
 }
-
-.contact_hero .map iframe {
+.contact_hero .map iframe{
     width: 100%;
     height: 560px;
     border-radius: 20px;
 }
-
 .contact_hero .loc-wrap h4 {
     margin-bottom: 14px;
     font-weight: 600;
@@ -1349,18 +1333,15 @@ footer .copyright-text p {
     margin-bottom: 34px;
     flex-wrap: nowrap;
 }
-
-.contact_hero .con-detail .detail-wrap.numbs {
+.contact_hero .con-detail .detail-wrap.numbs{
     align-items: start;
 }
-
-.contact_hero .con-detail .detail-wrap.numbs a {
+.contact_hero .con-detail .detail-wrap.numbs a{
     position: relative;
     margin-bottom: 10px;
     display: inline-block;
 }
-
-.contact_hero .con-detail .detail-wrap.numbs a.whats::before {
+.contact_hero .con-detail .detail-wrap.numbs a.whats::before{
     position: absolute;
     content: '\f232';
     font-family: 'FontAwesome';
@@ -1368,7 +1349,6 @@ footer .copyright-text p {
     left: -30px;
 
 }
-
 .contact_hero .con-detail .detail-wrap .icon {
     margin-right: 20px;
 }
@@ -1410,12 +1390,10 @@ footer .copyright-text p {
     text-align: center;
     margin-bottom: 60px;
 }
-
-.inset_logo .slick-slide {
+.inset_logo .slick-slide{
     padding: 10px 0;
 }
-
-.inset_logo .slick-slide img {
+.inset_logo .slick-slide img{
     box-shadow: 0px 0px 7px 0px lightgray;
 }
 
@@ -1705,10 +1683,10 @@ footer .copyright-text p {
     color: #061F33;
 }
 
-.growth p {
+.growth p{
     color: #061F33;
 }
 
-.space {
+.space{
     padding-top: 80px;
 }

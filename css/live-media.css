@@ -9,28 +9,16 @@
     }
 
     .service .ser-box h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .service .ser-box {
-        height: 310px;
-    }
-
-    .work .work-wrap {
-        height: 400px;
+        height: auto;
     }
 }
 
-@media(max-width:1366px) {
-    .service .ser-box h3 {
-        font-size: 17px;
-    }
-}
 
 @media(max-width:1200px) {
-    .service .ser-box {
-        height: 360px;
-    }
 
     .project-tabs .nav-tabs {
         /* overflow: hidden; */
@@ -42,10 +30,6 @@
 
     .project-tabs .nav-tabs .nav-link {
         white-space: nowrap;
-    }
-
-    .work .work-wrap {
-        height: 440px;
     }
 }
 
@@ -98,8 +82,7 @@
         padding: 0;
         border: none;
     }
-
-    header .navbar-toggler:focus {
+    header .navbar-toggler:focus{
         box-shadow: none;
     }
 
@@ -113,18 +96,8 @@
         padding: 32px;
     }
 
-    .expertise {
-        margin-bottom: 80px;
-    }
-
     .expertise .expert-info {
         width: 33.33%;
-    }
-
-    .expertise .expert-info:nth-last-child(3),
-    .expertise .expert-info:nth-last-child(2),
-    .expertise .expert-info:nth-last-child(1) {
-        margin-bottom: 0;
     }
 
     .work {
@@ -132,7 +105,6 @@
     }
 
     .work .work-wrap {
-        height: 400px;
         margin-bottom: 26px;
     }
 
@@ -220,16 +192,8 @@
         margin-bottom: 40px
     }
 
-    .project .row-head {
-        margin-bottom: 40px;
-    }
-
-    .project .mrg-btm {
-        margin-bottom: 32px;
-    }
-
-    .project .txt {
-        margin-bottom: 24px;
+    .project .pro-wrap .text .desc {
+        padding-right: 0px;
     }
 
     .contact_hero .loc-wrap {
@@ -302,8 +266,8 @@
     }
 
     .home_hero h1 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 48px;
+        line-height: 52px;
     }
 
     .service .ser-box {
@@ -311,17 +275,29 @@
     }
 
     .service .title_sec h2 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .project h2 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
-    .project h3 {
-        font-size: 24px;
+    .project .pro-wrap {
+        margin-bottom: 40px;
+    }
+
+    .project .pro-wrap:last-child {
+        margin-bottom: 40px;
+    }
+
+    .project .col-lg-6:last-child .pro-wrap:last-child {
+        margin-bottom: 0;
+    }
+
+    .project .mar-top {
+        margin-top: 0px;
     }
 
     .project .see-more {
@@ -330,30 +306,17 @@
         padding-top: 0;
     }
 
-    .project .mrg-btm {
-        flex-direction: column-reverse;
-    }
-
     .expertise {
-        margin-bottom: 64px;
-    }
-
-    .expertise h2 {
-        font-size: 32px;
-        line-height: 40px;
+        padding-bottom: 90px;
     }
 
     .expertise .expert-info {
         width: 50%;
     }
 
-    .expertise .expert-info:last-child {
-        margin-bottom: 0;
-    }
-
     .work .title_sec h2 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .team h2 {
